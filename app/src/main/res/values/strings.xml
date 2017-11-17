@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+
+    <string name="btc">BTC</string>
+
+    <string name="eth">ETH</string>
+
+    <string name="create">Create</string>
+
+    <string name="convert">Convert</string>
+
+    <string name="btc_converter">BTC Converter</string>
+
+    <string name="eth_converter">ETH Converter</string>
+
+    <string name="input_notification">Input the amount you want to convert</string>
+
+    <string-array name="currency_code_array">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>NGN</item>
+        <item>CAD</item>
+        <item>CNY</item>
+        <item>GHS</item>
+        <item>JPY</item>
+        <item>MYR</item>
+        <item>QAR</item>
+        <item>RUB</item>
+        <item>SGD</item>
+        <item>ZAR</item>
+        <item>CHF</item>
+        <item>AED</item>
+        <item>SAR</item>
+        <item>AUD</item>
+        <item>ETB</item>
+        <item>GNF</item>
+        <item>XOF</item>
+        <item>INR</item>
+    </string-array>
+</resources>

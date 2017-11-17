@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/padding">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@android:color/holo_blue_bright">
+            <Spinner
+                android:id="@+id/currency_list"
+                android:layout_height="@dimen/spinner_height"
+                android:layout_width="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center" />
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="3"
+                    android:textAlignment="center">
+
+                    <TextView
+                        android:id="@+id/btc"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="@string/btc"
+                        android:textSize="@dimen/currency_text"
+                        android:layout_gravity="center"
+                        android:padding="@dimen/padding"/>
+
+                    <TextView
+                        android:id="@+id/btc_price"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:textSize="@dimen/price"
+                        android:layout_gravity="center"
+                        android:padding="@dimen/padding"/>
+
+
+                    <TextView
+                        android:id="@+id/eth"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="@string/eth"
+                        android:textSize="@dimen/currency_text"
+                        android:layout_gravity="center"
+                        android:padding="@dimen/padding"/>
+
+                    <TextView
+                        android:id="@+id/eth_price"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:textSize="@dimen/price"
+                        android:layout_gravity="center"
+                        android:padding="@dimen/padding"/>
+
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/converter_menu"
+                    android:layout_width="@dimen/menu_width"
+                    android:layout_height="@dimen/menu_height"
+                    android:layout_weight="1"
+                    android:src="@drawable/menu"
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

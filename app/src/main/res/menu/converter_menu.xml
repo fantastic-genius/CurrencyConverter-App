@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btc_converter"
+        android:orderInCategory="100"
+        android:title="@string/btc_converter"/>
+    <item
+        android:id="@+id/eth_converter"
+        android:orderInCategory="101"
+        android:title="@string/eth_converter"/>
+
+</menu>
